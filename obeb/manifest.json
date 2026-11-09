@@ -1,6 +1,8 @@
 {
-  "manifest_version": 3,
-  "name": "Мое расширение",
+  "name": "Запускаем снежинки на любом сайте",
+  "description": "Проект журнала Код",
   "version": "1.0",
-  "description": "Описание функционала расширения",
-  },
+  "manifest_version": 3,
+  "permissions": ["activeTab", "scripting"],
+  "default_popup": "popup.html",
+},
